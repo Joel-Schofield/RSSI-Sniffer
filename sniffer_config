@@ -1,0 +1,15 @@
+//my mac 		28:37:37:18:fd:c6
+//my iphone		44:4c:0c:c2:ad:28
+//eduroam 		64:d9:89:43:7f:5e
+//pi-ethernet 		b8:27:eb:c8:9a:52
+//pi-black-wifi		7c:dd:90:22:65:e1
+//ceit wifi 		e4:ce:8f:6a:b5:43
+//ceit-wrt wifi 	00:15:f2:88:f8:e0
+
+
+nid: Node 3
+dev: wlan0
+flt: ether dst host 00:15:f2:88:f8:e0
+//adr: tcp://summer.ceit.uq.edu.au:1883
+adr: 192.168.1.148:1883
+top: joelschofield/building17/ceit/
